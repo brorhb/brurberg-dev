@@ -21,13 +21,13 @@ So to the code! The logic I fairly simpel. I needed a GameState and I like to wo
 
 So what do I have in my state holder class? (I won’t post the whole thing, just pseudo code).
 
- <iframe src="https://medium.com/media/e8a06e52b62295416544a54a61639d02" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/262fdbcf2f141a2caf37e51a3b351ac3.js" charset="utf-8"></script>
 
 This is the engine that makes this app work 😅 It’s not much, but it is enough.
 
 But… I have one problem with Provider. I have not found a good way to listen for a change, and then spawn a SnackBar og AlertDialog. That is why I added some streams to this mess 😁 With the streams, I can set up something like this:
 
- <iframe src="https://medium.com/media/bc2b3e3961e32dbeadef02ccfea9200d" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/fcc2a8dcee89d9ca5e1b64b3cbb24357.js" charset="utf-8"></script>
 
 I’m sure there is another solution to the Future.delayed(Duration.zero, () {}); hack, but it works 😅 I haven't combined ChangeNotifier with streams like this before, but now I can come up with a couple of use-cases in my productions app 😁
 
@@ -35,7 +35,7 @@ Today I also learned about CIEDE2000 as a way to calculate the distance between 
 
 I also had to create an extension to Color, so I could take a string and try to create a color from it credit to this [post](https://stackoverflow.com/questions/50081213/how-do-i-use-hexadecimal-color-strings-in-flutter) for explaining how to create a color from hex and visa versa. I just added a Exception to it if the input is totally invalid and some generic error…
 
- <iframe src="https://medium.com/media/2891c6bfca27a88e8f185283f609a784" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/8749ff9284567131960e7642e3dd7c0e.js" charset="utf-8"></script>
 
 This was a short one, but I had fun writing this app, and I actually learned something I can take with me into my production apps. I think this is why playing and having fun with something is important to improve 😁 I hope you got something out of reading this, maybe you want to create this app too? 👀🎨
 
