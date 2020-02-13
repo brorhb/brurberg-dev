@@ -16,7 +16,7 @@ I quickly realized; In my rush to release, I did not care to much about using co
 
 So I started to time a lot of methods, to figure out if something should be done on a seperate thread.
 
- <iframe src="https://medium.com/media/a3f3800142748ee1923573aa424bf409" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/74c876d39be0b8c90de33863ea0c866b.js" charset="utf-8"></script>
 
 And like most of you know, the goal with Flutter is to keep a high refresh rate. And try to keep it above 60FPS. That means you have (1000ms / 60frames) around 16,666666667ms/frame. So if your calculation takes more than 16ms you run the risk of stutters in you app, since this happens in the same place as where you run your UI code.
 
@@ -24,12 +24,12 @@ This is the making it right part. I think by moving heavy manipulations of lists
 
 This is a good talk about why that is a good thing 😁 The talk focuses on the web, but I found it really useful non the less.
 
- <iframe src="https://medium.com/media/9a63a2ed903cebb73d19be3e58eb46a1" frameborder=0></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/7Rrv9qFMWNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 And now… Making it fast. I can’t give you a whole lot of tips here, since a lot comes down to know the tool you are using, in my case: Dart.
 
 But I do have some tricks that helped me a lot! Like any application, my apps use lists of data. And like you need to do in a lot of lists, you need to look up that information.
 
- <iframe src="https://medium.com/media/bfca3d8a4589f9562e4a7d4c44165aa5" frameborder=0></iframe>
+ <script src="https://gist.github.com/brorhb/bbc0e66e7ee99eeaec1576e203fc3014.js" charset="utf-8"></script>
 
 The example shows how I switched from using list of item, to a map with key/value pair of item.id as key, and the item as the value. In some cases this can yield huge performance gains. But, like I said: A lot comes down to knowing your tool. In Dart, you should make yourself very familiar with all the methods you can run on a Iterable. Methods like: map, fold and reduce can help you a lot 😁

@@ -8,11 +8,11 @@ short: I want to build upon previous post. This is where we got to:
 
 I want to build upon previous post. This is where we got to:
 
- <iframe src="https://medium.com/media/57c7bcf301a69f087fa4b7e0c82c0704" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/32285a3b84147f5a4c8467988f74f927.js" charset="utf-8"></script>
 
 ⬆️This is the core of the package, and this is my SwiftUI code ⬇️
 
- <iframe src="https://medium.com/media/142e91ab9cdf296ea0c4c0c6266f23a4" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/498f97e3dfe5d9fda03dae081154aa41.js" charset="utf-8"></script>
 
 Cool right! We can now return a phrase from our language package and show it’s value in a Text view 😁
 

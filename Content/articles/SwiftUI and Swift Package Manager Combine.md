@@ -15,7 +15,7 @@ So what am I doing? So, as I’ve mentioned in an earlier post: I’ve made crea
 
 So where to begin. I needed to install the macOS Catalina beta ([I did it following this guide](https://medium.com/@martinlasek/install-macos-catalina-xcode-11-beta-4701b6e3a296)) then Xcode 11 beta. When I finished this process I was ready. I created a new project “File -> New -> Swift Package” Swift Package is new to Xcode 11, and Apple have integrated Swift Package Manager into Xcode. This gives you a package project to work with with tests. Then I had to write my structs for handling the JSON data from my API, and then a simple parser function:
 
- <iframe src="https://medium.com/media/615a59d71709e22aed9739a7944f44a2" frameborder=0></iframe>
+ <script src="https://gist.github.com/brorhb/ca4d36f40c2c443d502495af63f2eb87.js"></script>
 
 Pretty cool 😎 Or, it's cool to me… If you know Swift this is probably not impressive. Now you can parse JSON into a struct as long it’s a one to one with the struct.
 
@@ -28,7 +28,7 @@ Now I needed to figure out what to do with this data. I needed to make it availa
 
 Pretty much the answer. I needed to make my class conform to BindableObject and have some variable to notify listeners when the class is ready. I don’t know if I’ve done this the right way, but it works.
 
- <iframe src="https://medium.com/media/e821cae8b3f93921cde2861f6f0a8356" frameborder=0></iframe>
+ <script src="https://gist.github.com/brorhb/dff0cd2d35736a6a7338bca5bef2d750.js"></script>
 
 This is pretty much what happens. There is more going on, but that is specific for my use-case and don’t serve to much a purpose here 😅
 
@@ -52,13 +52,13 @@ At this point I discovered that Xcode did not see my classes. I quickly learned 
 
 So I needed to update my package
 
- <iframe src="https://medium.com/media/57c7bcf301a69f087fa4b7e0c82c0704" frameborder=0></iframe>
+ <script src="https://gist.github.com/brorhb/32285a3b84147f5a4c8467988f74f927.js" charset="utf-8"></script>
 
 Note that I also needed to make the Phrase struct public.
 
 Now I you can use the package like this!
 
- <iframe src="https://medium.com/media/142e91ab9cdf296ea0c4c0c6266f23a4" frameborder=0></iframe>
+ <script src="https://gist.github.com/brorhb/498f97e3dfe5d9fda03dae081154aa41.js" charset="utf-8"></script>
 
 Now stuff works! And what a joy 🙌
 
