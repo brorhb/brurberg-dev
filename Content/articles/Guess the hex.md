@@ -9,7 +9,7 @@ short: A couple of days ago, I stumbled over this tweet, and I could not stop th
 
 A couple of days ago, I stumbled over this tweet, and I could not stop thinking about it. Soooooo, during lunch today I started to mock it up using Flutter 💙
 
-<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 500px; height: 2015px; padding: 0px; border: none; margin: 10px auto; max-width: 100%; min-width: 220px;" data-tweet-id="1205982293787103234" title="Twitter Tweet"></iframe>
+ <iframe src="https://medium.com/media/47ebdc8b76201f7758f45ecf52fc1fc0" frameborder=0></iframe>
 
 So after working on it for 30min during lunch 🥗 and a couple of hours when I got home, this is what I got 😅
 
