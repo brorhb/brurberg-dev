@@ -22,19 +22,19 @@ So what do we do now? Insert [Singletons](https://en.wikipedia.org/wiki/Singleto
 
 So how do we do this? Well, we need our singleton, and this is how I did it
 
- <iframe src="https://medium.com/media/7fb2cd2a923ca8e1e656e6183935139f" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/c58f58338eba0aecd04da0ff66feeb84.js" charset="utf-8"></script>
 
 There is almost nothing to it… You just need to declare a public var/let that can take an instance of Language.
 
 Now we want to use this of course. And this requires some minor changes to our ContentView.swift file, and we want to create a new SwiftUI view as a child 👶 :
 
- <iframe src="https://medium.com/media/aea99e670d9817b660cb307109d5a9d2" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/9cc12dafdbaf520b335e6c4ef7cc2d56.js" charset="utf-8"></script>
 
 We now use the public variable containing our singleton as the @ObjectBinding variable. But we still need to fetch somewhere, so let’s just to it here 😄
 
 Now to the child view:
 
- <iframe src="https://medium.com/media/e8ea7f08718b8d255b82a688ab7103c2" frameborder=0></iframe>
+<script src="https://gist.github.com/brorhb/2a1fa740e7d9b24d9277b91c820e4d62.js" charset="utf-8"></script>
 
 This is pretty much a replica of our old ContentView.swift file. But the well trained eye 👁 will see that we don't call the fetch method! This is because the parent did it, so we don’t need to do it again 😄 But we could still access all the variables and methods of the class 😁
 
