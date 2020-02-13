@@ -23,7 +23,8 @@ class BlogHTMLFactory: HTMLFactory {
                         on: context.site,
                         title: "Recent content"
                     )
-                )
+                ),
+                .bbfooter()
             )
         )
     }
@@ -37,8 +38,8 @@ class BlogHTMLFactory: HTMLFactory {
                 .grid(
                     .header(for: context.site),
                     .post(for: item, on: context.site)
-                )
-                
+                ),
+                .bbfooter()
             )
         )
     }
@@ -52,7 +53,8 @@ class BlogHTMLFactory: HTMLFactory {
                 .grid(
                     .header(for: context.site),
                     .page(for: page, on: context.site)
-                )
+                ),
+                .bbfooter()
             )
         )
     }
@@ -80,7 +82,8 @@ class BlogHTMLFactory: HTMLFactory {
                         on: context.site,
                         title: "Recent content"
                     )
-                )
+                ),
+                .bbfooter()
             )
         )
     }
