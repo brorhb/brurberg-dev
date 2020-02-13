@@ -36,6 +36,5 @@ struct Blog: Website {
 // This will generate your website using the built-in Foundation theme:
 //try Blog().publish(withTheme: .blog)
 try Blog().publish(using: [
-    .generateHTML(withTheme: .blog),
-    .generateRSSFeed(including: .),
+    .generateHTML(withTheme: .blog)
 ])
