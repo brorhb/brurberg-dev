@@ -36,13 +36,7 @@ class BlogHTMLFactory: HTMLFactory {
                 .class("sans-serif"),
                 .grid(
                     .header(for: context.site),
-                    .div(
-                        .class("flex flex-row justify-center"),
-                        .div(
-                            .class("flex-column mw6"),
-                            .post(for: item, on: context.site)
-                        )
-                    )
+                    .post(for: item, on: context.site)
                 )
                 
             )

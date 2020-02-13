@@ -12,15 +12,18 @@ import Foundation
 extension Node where Context == HTML.BodyContext {
     static func post(for item: Item<Blog>, on site: Blog) -> Node {
         return .pageContent(
-            .p(
-                .class("f5 fw4 gray mt0"),
-                "\(DateFormatter.blog.string(from: item.date))"
-            ),
-            .tagList(for: item, on: site),
             .div(
+                .class("ph2"),
+                .p(
+                    .class("f5 fw4 gray mt0 w-80"),
+                    "\(DateFormatter.blog.string(from: item.date))"
+                ),
+                .tagList(for: item, on: site),
                 .div(
-                    .class("tl"),
-                    .contentBody(item.body)
+                    .div(
+                        .class("tl"),
+                        .contentBody(item.body)
+                    )
                 )
             )
         )
