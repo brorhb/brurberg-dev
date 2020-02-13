@@ -9,7 +9,7 @@ short: A couple of days ago, I stumbled over this tweet, and I could not stop th
 
 A couple of days ago, I stumbled over this tweet, and I could not stop thinking about it. Soooooo, during lunch today I started to mock it up using Flutter 💙
 
- <iframe src="https://medium.com/media/47ebdc8b76201f7758f45ecf52fc1fc0" frameborder=0></iframe>
+![](https://twitter.com/guamhat/status/1205982293787103234?s=21)
 
 So after working on it for 30min during lunch 🥗 and a couple of hours when I got home, this is what I got 😅
 
