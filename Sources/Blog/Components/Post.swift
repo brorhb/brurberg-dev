@@ -13,16 +13,19 @@ extension Node where Context == HTML.BodyContext {
     static func post(for item: Item<Blog>, on site: Blog) -> Node {
         return .pageContent(
             .div(
-                .class("ph2 mw6-ns"),
-                .p(
-                    .class("f5 fw4 gray mt0 w-80"),
-                    "\(DateFormatter.blog.string(from: item.date))"
-                ),
-                .tagList(for: item, on: site),
+                .class("flex justify-center"),
                 .div(
+                    .class("ph2 mw6-ns w-100 flex-none"),
+                    .p(
+                        .class("f5 fw4 gray mt0 w-80"),
+                        "\(DateFormatter.blog.string(from: item.date))"
+                    ),
+                    .tagList(for: item, on: site),
                     .div(
-                        .class("tl"),
-                        .contentBody(item.body)
+                        .div(
+                            .class("tl"),
+                            .contentBody(item.body)
+                        )
                     )
                 )
             )
