@@ -13,7 +13,7 @@ extension Node where Context == HTML.BodyContext {
     static func post(for item: Item<Blog>, on site: Blog) -> Node {
         return .pageContent(
             .div(
-                .class("ph2"),
+                .class("ph2 mw6-ns"),
                 .p(
                     .class("f5 fw4 gray mt0 w-80"),
                     "\(DateFormatter.blog.string(from: item.date))"
