@@ -38,5 +38,7 @@ struct Blog: Website {
 try Blog().publish(using: [
     .addMarkdownFiles(),
     .copyResources(),
-    .generateHTML(withTheme: .blog)
+    .generateHTML(withTheme: .blog),
+    .generateRSSFeed(including: [.articles, .projects]),
+    .generateSiteMap()
 ])
