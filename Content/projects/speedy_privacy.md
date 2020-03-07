@@ -1,5 +1,5 @@
 ---
-date: 2020-02-20 00:00
+date: 2020-03-7 18:23
 tags: swift, swiftUI, project,
 short: Privacy policy for Speedy.
 title: Privacy policy for Speedy
