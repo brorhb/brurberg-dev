@@ -2,7 +2,7 @@
 date: 2020-03-09 07:30
 tags: swift, swiftUI, project
 short: Saturday I woke up, and started my weekend routine. I was watching my regular sports and programming youtube channels. Suddenly it hit me: I should create a app today. And so I did.
-title: One day programming project for the Apple Watch
+title: Speedy - One day programming project for the Apple Watch
 ---
 # Speedy - A watch speedgauge
 
