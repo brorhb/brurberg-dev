@@ -3,7 +3,7 @@ date: 2020-06-23 22:21
 tags: swift, swiftUI, project
 short: I've gotten bit by the mountain biking bug 🚵‍♀️ and it's pretty much all I can think about during my off hours. I think about gear, my cardiovascular strength and of course planning my next ride. And the planning part can be quite hard from time to time. I live in a area with lots of trails to ride. But I feel like the trail riding community can be quite secretive about their favorite trails. I can understand that, they want their trails to be theirs😅
 ---
-
+# MTBMap Norge (a openstreetmap trailguide)
 I've gotten bit by the mountain biking bug 🚵‍♀️ and it's pretty much all I can think about during my off hours. I think about gear, my cardiovascular strength and of course planning my next ride. And the planning part can be quite hard from time to time. I live in a area with lots of trails to ride. But I feel like the trail riding community can be quite secretive about their favorite trails. I can understand that, they want their trails to be theirs😅
 
 But I've found some resources that shows a lot trails in Norway. The site mtbmap.no pulls data from openstreetmap and adds some extra layers on top of that data to make it more useful. I've been using that map to plan rides. But it does not work that well when I'm actually out on the trails. I wanted to fix that problem, and that's where this project comes to life.
