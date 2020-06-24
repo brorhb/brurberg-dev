@@ -17,4 +17,4 @@ This app took me about 5h to develop and it proved useful later the same day! It
 This was a short post, but I just had to share this little project with someone 😅
 
 Check out the app on the [AppStore](https://apps.apple.com/no/app/mtbmap-norge/id1519387034?l=nb)
-    At the moment I'm waiting on the Google Play review. I will update this whenever it's available on the Google Play store 👀
+ or on the [Google Play Store](https://play.google.com/store/apps/details?id=dev.brurberg.mtbmap)
