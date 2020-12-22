@@ -3,4 +3,6 @@ title: About
 ---
 
 # About
-Remote app developer, currently working for EcoOnline 🎉
+Remote developer.
+
+Working at Variant in Trondheim, from the shredtown of Oppdal 🎉
